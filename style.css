@@ -342,3 +342,140 @@ h2 {
 .assistant-card img {
   margin-top: 100px;
 }
+
+
+
+
+.enterprise-feature {
+  min-width: 500px;
+  margin-bottom: 38px;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  gap: 1rem;
+}
+
+.enterprise-header {
+  display: flex;
+  gap: 12rem;
+  padding-bottom: 48px;
+}
+
+.enterprise-feature-text-wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: start;
+  gap: 1rem;
+  flex-direction: column;
+}
+
+.enterprise-feature-text-wrapper h1 {
+  font-size: 40px;
+}
+
+.enterprise-feature-text-wrapper p {
+  font-size: 16px;
+}
+
+.explore-for-enterprise-btn {
+  gap: 6px;
+  height: fit-content;
+  cursor: pointer;
+  font-size: 16px;
+  font-weight: 500;
+  padding: 9px 22px;
+  border-radius: 9999px;
+  border: 1px solid transparent;
+  background-color: var(--color-black);
+  color: var(--bg-color);
+}
+
+.enterprise-feature-card-wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 6rem;
+  margin-bottom: 50px;
+}
+
+.enterprise-feature-card h2 {
+  margin: 32px 0px 16px 0px;
+}
+.enterprise-feature-card p {
+  font-size: 16px;
+  color: #08090acc;
+}
+
+.enterprise-feature-banner {
+  background-image:
+    linear-gradient(to bottom, rgba(255, 255, 255, 0), rgba(255, 255, 255, 0)),
+    url(./assets/enterprise-feature-banner.png);
+  height: 520px;
+  width: 1028px;
+  background-repeat: no-repeat;
+  background-size: 105% auto;
+  background-repeat: no-repeat;
+  border-radius: 30px;
+  padding: 4rem;
+}
+
+.enterprise-feature-banner:hover {
+  background-image:
+    linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)),
+    url(./assets//enterprise-feature-banner.png);
+}
+
+.enterprise-small-heading {
+  color: white;
+  font-weight: 600;
+}
+.enterprise-feature-banner h2 {
+  color: white;
+  padding: 20px 0px 30px 0px;
+  font-weight: 500;
+  line-height: 1.3;
+}
+.enterprise-feature-banner p {
+  color: white;
+  font-weight: 500;
+}
+.enterprise-feature-banner p span svg {
+  width: 10px;
+  rotate: -90deg;
+}
+.feature-banner-text {
+  margin-top: 8rem;
+  display: flex;
+  gap: 2.5rem;
+}
+
+.feature-banner-text .card h1 {
+  color: var(--bg-color);
+  font-weight: 400;
+  font-size: 40px;
+}
+.feature-banner-text .card p {
+  color: #a8a8a8;
+  font-weight: 500;
+  font-size: 14px;
+  margin-top: 6px;
+  line-height: 1.5;
+}
+
+.enterprise-feature-company {
+  display: flex;
+  min-width: 1028px;
+  align-items: center;
+  justify-content: space-evenly;
+  margin-bottom: 200px;
+  padding: 0px 24px;
+}
+
+.enterprise-feature-company .company-container img {
+  filter: brightness(0) saturate(100%) invert(65%);
+}
+.enterprise-feature-company .company-container img:hover {
+    filter:none;
+    cursor: pointer;
+}
