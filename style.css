@@ -5,6 +5,10 @@
   font-family: "Inter", sans-serif;
 }
 
+body{
+  background-color: #fbfbfa;
+}
+
 :root {
   --bg-color: #f4f5f4;
   --color-darkgreen: #1d4c56;
@@ -580,7 +584,7 @@ h2 {
   align-items: center;
   flex-direction: column;
   text-align: center;
-  margin-bottom: 200px;
+  margin-bottom: 100px;
 }
 
 .cta h1 {
@@ -666,4 +670,125 @@ h2 {
   width: 1px;
   background-color: #e5e5e5;
   transform: translateX(-50%);
+}
+
+
+footer {
+    /* margin-bottom: 100px; */
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid rgb(240, 240, 240);
+}
+
+.footer-head {
+    min-width: 1028px;
+    display: flex;
+    justify-content: space-between;
+    padding: 64px 32px 24px;
+    border: 1px solid rgb(237, 237, 237);
+}
+
+.social-logo {
+    color: #55555585;
+    display: flex;
+    gap: 1rem;
+}
+
+.social-links {
+    display: flex;
+    /* gap: 20px; */
+    padding: 26px 26px;
+    border: 1px solid rgba(237, 237, 237);
+    border-top: none;
+    width: 1028px;
+    padding-bottom: 50px;
+}
+
+.social-links .links {
+    margin: 20px;
+    width: 100%;
+}
+
+footer .social-links .links p{
+    font-size: 13.15px;
+    margin-top:20px ;
+    font-weight: 500;
+}
+
+.end {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 1028px;
+    height: 100px;
+    padding: 40px;
+    padding-left: 30px;
+    gap: 1px;
+    border: 1px solid rgba(237, 237, 237);
+    border-top: none;
+}
+
+.end p{
+  font-size: 14px;
+  color: #8b8b8a;
+}
+.footer-end {
+    display: flex;
+    gap: 3px;
+    justify-content: start;
+    align-items: center;
+    width: 1028px;
+    border: 1px solid rgba(237, 237, 237);
+    border-top: none;
+    padding:30px 50px;
+    padding-left: 30px;
+}
+
+.footer-end p{
+  font-size: 15px;
+  margin-right: 15px;
+}
+
+.footer-badge {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 4px;
+    background-color: #efeeee;
+    padding: 5px 16px;
+    border-radius: 50px;
+    font-size: 13px;
+}
+.footer-badge span {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #0c8c5e;
+}
+
+.footer-badge span svg {
+    width: 20px;
+}
+
+.theme-toggle {
+    background-color: #c1c1c161;
+    padding: 5px 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    border-radius:50px ;
+    width: fit-content;
+}
+
+.theme-toggle button {
+    border: none;
+    background-color: transparent;
+    width: 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
