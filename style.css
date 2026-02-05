@@ -62,6 +62,7 @@ header nav {
 
 .logo img {
   width: 100px;
+  cursor: pointer;
 }
 
 .link {
@@ -105,7 +106,7 @@ header nav {
   padding: 6px 12px;
   border-radius: 9999px;
   border: none;
-  background-color: rgba(244, 244, 244, 0.07);
+  background-color: rgba(200, 200, 200, 0.1);
   color: var(--text-black);
 }
 
@@ -235,4 +236,27 @@ form input::placeholder {
 }
 .hero-background-illustration img {
   border-radius: 10px;
+}
+
+
+.company-wrapper {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  margin: 90px 0px;
+  margin-top: 85px;
+}
+
+.company {
+  display: grid;
+  grid-template-columns: repeat(4, 250px);
+  gap: 10px;
+}
+
+.company-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 20px 10px;
+  color: var(--color-black);
 }
