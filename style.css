@@ -1,0 +1,22 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+@font-face {
+    font-family: mintlify;
+    src: url(./assets/fonts/mintlify.ttf);
+}
+
+:root{
+    --accent-background: #09080a;
+    --accent-text-color: #f9f8f9;
+    --font: mintlify;
+}
+
+body{
+    background-color: var(--accent-background);
+    color: var(--accent-text-color);
+    font-family: var(--font);
+}
