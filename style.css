@@ -571,3 +571,99 @@ h2 {
   margin: 3px;
 }
 
+
+
+
+.cta {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  text-align: center;
+  margin-bottom: 200px;
+}
+
+.cta h1 {
+  font-size: 39px;
+  font-weight: 600;
+}
+
+.cta p {
+  font-size: 16px;
+  margin-top: 16px;
+  margin-bottom: 16px;
+}
+
+.cta-btn {
+  margin-top: 40px;
+}
+
+.get-started-btn {
+  gap: 6px;
+  height: fit-content;
+  cursor: pointer;
+  font-size: 16px;
+  font-weight: 500;
+  padding: 9px 24px;
+  border-radius: 9999px;
+  border: 1px solid rgb(198, 198, 198);
+  background-color: var(--color-black);
+  color: var(--bg-color);
+}
+
+.cta-card {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.cta-card .cta-card-icon {
+  border-radius: 20px;
+  border: 1px solid rgb(197, 197, 197);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 10px;
+  width: fit-content;
+}
+
+.cta-card .cta-card-icon svg {
+  width: 36px;
+  color: #0c8c5e;
+}
+
+.cta-card h2 {
+  margin-top: 30px;
+  font-size: 20px;
+  font-weight: 500;
+}
+
+.cta-card a {
+  margin-top: 30px;
+  text-decoration: none;
+  color: #0c8c5e;
+}
+
+.cta-card a span svg {
+  width: 10px;
+  rotate: -90deg;
+}
+
+.cta-card-wrapper {
+  display: flex;
+  gap: 10rem;
+  margin-top: 100px;
+  position: relative;
+}
+
+.cta-card-wrapper::before {
+  content: '';
+  position: absolute;
+  left: 50%;
+  top: 1%;
+  bottom: 1%;
+  width: 1px;
+  background-color: #e5e5e5;
+  transform: translateX(-50%);
+}
