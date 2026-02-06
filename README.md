@@ -7,7 +7,7 @@ I recreated the Mintlify landing page from scratch using only HTML and CSS as pa
 
 Check out the live version here: [https://mintlifylanding.vercel.app/](https://mintlifylanding.vercel.app/)
 
-> **NOTE:** For the closest visual match to the original Cursor site, set your browser zoom to 110%.
+> **NOTE:** For the closest visual match to the original Mintlify site, set your browser zoom to 110%.
 
 ![Project Preview](assets/Project_Preview.png)
 
