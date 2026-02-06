@@ -6,7 +6,7 @@
 }
 
 body{
-  background-color: #fbfbfa;
+  background-color: #fefeff;
 }
 
 :root {
@@ -94,6 +94,12 @@ header nav {
   padding: 4px 12px;
 }
 
+.link li a:hover {
+  background-color: rgba(200, 200, 200, 0.077);
+  border-radius: 9999px;
+  color: var(--text-black);
+}
+
 .nav-button-wraper {
   display: flex;
   align-items: center;
@@ -127,6 +133,10 @@ header nav {
   color: var(--text-white);
 }
 
+.start-for-free-btn:hover {
+  background-color: #1a1a1a;
+  color: var(--text-white);
+}
 
 
 .hero {
@@ -147,6 +157,11 @@ header nav {
   background-color: #1818182e;
   width: fit-content;
   color: var(--text-white);
+}
+
+.badge:hover {
+  background-color: #18181815;
+  cursor: pointer;
 }
 
 .badge span {
@@ -398,6 +413,11 @@ h2 {
   color: var(--bg-color);
 }
 
+.explore-for-enterprise-btn:hover {
+  background-color: #2c2c2c;
+  color: var(--bg-color);
+}
+
 .enterprise-feature-card-wrapper {
   display: flex;
   justify-content: center;
@@ -529,6 +549,10 @@ h2 {
   max-width: 400px;
 }
 
+.carousel-card:hover {
+  cursor: pointer;
+}
+
 .image-container {
   background-size: 120% auto;
   background-repeat: no-repeat;
@@ -614,6 +638,29 @@ h2 {
   background-color: var(--color-black);
   color: var(--bg-color);
 }
+.get-demo-btn {
+  gap: 6px;
+  height: fit-content;
+  cursor: pointer;
+  font-size: 16px;
+  font-weight: 500;
+  padding: 9px 24px;
+  border-radius: 9999px;
+  border: 1px solid rgb(198, 198, 198);
+  background-color: #fff;
+  color: #000;
+}
+
+.get-started-btn:hover {
+  background-color: #2c2c2c;
+  color: var(--bg-color);
+}
+
+.get-demo-btn:hover {
+  border: none;
+  background-color: #f5f4f4;
+  color: var(--color-black);
+}
 
 .cta-card {
   display: flex;
@@ -697,6 +744,11 @@ footer {
     gap: 1rem;
 }
 
+.social-logo svg:hover {
+    color: #32313185;
+    cursor: pointer;
+}
+
 .social-links {
     display: flex;
     /* gap: 20px; */
@@ -761,6 +813,10 @@ footer .social-links .links p{
     padding: 5px 16px;
     border-radius: 50px;
     font-size: 13px;
+}
+
+.footer-badge:hover {
+    cursor: pointer;
 }
 .footer-badge span {
     display: flex;
